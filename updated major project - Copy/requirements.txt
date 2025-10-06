@@ -1,0 +1,8 @@
+flask
+scikit-learn
+pandas
+numpy
+joblib
+lime
+nltk
+chart.js==2.9.4   # Chart.js is loaded from CDN in HTML, keep for reference
