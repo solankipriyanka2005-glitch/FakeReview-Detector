@@ -1,0 +1,27 @@
+/* static/style.css */
+:root {
+  --bg: #f8fafc;
+  --muted: #64748b;
+}
+
+body { background: var(--bg); font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+
+/* gauge */
+.gauge {
+  width: 140px; height: 140px; border-radius: 50%;
+  background: conic-gradient(var(--color, #10b981) var(--p, 0%), #e6e6e6 0);
+  display: grid; place-items: center;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.06);
+}
+.glabel { width: 92px; height: 92px; background: white; border-radius: 50%; display:grid; place-items:center; font-weight:800; color:#0f172a; box-shadow: inset 0 0 0 2px rgba(0,0,0,0.03); }
+
+/* highlighted text spans */
+.lime-highlight {
+  padding: 0.12rem 0.25rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin: 0 0.06rem;
+}
+
+/* small image styles */
+img { display:block; }
